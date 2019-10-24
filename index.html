@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang='nl'>
 <head>
 	<meta charset="UTF-8">
@@ -10,14 +10,15 @@
 	.container {
 		font-family: HelveticaNeueLight;
 		max-width: 500px;
-		margin: auto
+		margin: auto;
+		background-color: #fff;
 	}
 </style>
 </head>
 
 <body>
 	<div class='container'>
-		<header><a href="index.html">McDonald's Maarssen</a></header>
+		<header><a href="index.html">MCDONALD'S</a></header>
 
 		<div class='top'>
 			<nav>
@@ -31,7 +32,7 @@
 
 	<div class="menu-wrap">
 	  <input type="checkbox" class="toggler">
-	  	<div class="hamburger"><div><img src='media/Mcdonalds-Logo-PNG-File.png' width=75px height=75px></div></div>
+	  	<div class="hamburger"><div><img src='media/Mcdonalds-Logo-PNG-File.png' width=75 height=75 alt="logo"></div></div>
 	  		<div class="menu">
 	    		<div>
 	      		<div>
@@ -53,40 +54,105 @@
 		<span id="slider-image-2"></span>
 		<span id="slider-image-3"></span>
 		<div class="image-container">
-			<img src="media/1.jpg" width=500px height=667px class="slider-image">
-				<img src="media/2.jpg" width=500px height=667px class="slider-image">
-				<img src="media/3.jpg" width=500px height=667px class="slider-image">
+			<img src="media/1.jpg" width=500 height=667 class="slider-image" alt="1">
+			<img src="media/2.jpg" width=500 height=667 class="slider-image" alt="2">
 		</div>
 		<div class = "button-container">
 			<a href="#slider-image-1" class="slider-button"></a>
 			<a href="#slider-image-2" class="slider-button"></a>
-			<a href="#slider-image-3" class="slider-button"></a>
 		</div>
 	</div>
 
 	<div class='blok1'>
 		<h1>McDonald's</h1>
-		<p><b>McDonald's</b> is de grootste fast-food restaurant ter wereld.
-		<br>Wij nemen onze verantwoordelijkheid over het milieu en
-		<br> de afkomst van onze producten.</p>
+		<p>
+			<b>McDonald's</b> is de grootste fast-food restaurant ter wereld.
+			<br>
+			Wij nemen onze verantwoordelijkheid over het milieu en
+			<br>
+			de afkomst van onze producten.
+		</p>
+		<a href="#" class="viewproducts">BEKIJK PRODUCTEN</a>
 	</div>
 
-	<a href="#" class="viewproducts">BEKIJK PRODUCTEN</a>
 
-	<div class='blok2'>
+	<div class='over'>
+		<h1>Over McDonald's</h1>
+		<p>
+			Het eerste McDonald's-restaurant werd geopend in 1940 door de broers
+			Dick en Mac McDonald in San Bernardino, Californië. Het restaurant
+			werd bekender nadat de broers een 'lopende-band'-productiesysteem ontwikkelden
+			voor hamburgers, zonder beniening aan tafel in 1948. Een
+			handelsreiziger en verkoper van milkshakemachines Ray Kroc kwam op het
+			idee om meerdere zaken te openen. Zo ontstond het McDonald's-concern.
+			Het eerste McDonald's-restaurant in Europa werd geopend in Zaandam in
+			1971. De eerste McDrive in Nederland werd gepoend op 25
+			september 1987 in Huis ter Heide.
+		</p>
+	</div>
+
+	<div class='video'>
+		<video width="1000" controls >
+	  	<source src="media/McDonalds.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div class='over2'>
+		<p>
+			McDonald's is tegenwoordig bekend als 's werelds grootste keten van hamburger-
+			en fastfoodrestaurants. Bekende producten zijn onder andere de Big Mac
+			en de friet. Ook is er voor kinderen een speciaal
+			menu: de Happy Meal. In Nederland en België is de
+			speciale gele frietsaus verkrijgbaar. In andere landen krijgt men standaard
+			ketchup of mayonaise bij de frietjes geserveerd. De meeste restaurants
+			hebben ook een McDrive. Hier kan je eten bestellen zonder
+			je auto te hoeven verlaten, waarna de maaltijd/snack in
+			de auto genuttigd kan worden. In Nederland zijn er 250
+			McDonald's-restaurants en 165 McDrives. Ongeveer 20.000 mederwerkers werken bij McDonald's
+			in Nederland.
+		</p>
+	</div>
+
+	<img src="media/ontbijt.jpg" width=1000 height=563 class='ontbijtfoto' alt="ontbijt">
+
+	<div class='ontbijt'>
 		<h1>Ontbijten bij McDonald's</h1>
 		<p>Bij McDonald's kun je tussen <b><u>07:00</u></b> en <b><u>11:00</u></b> 's ochtends
 		<br>genieten van een vers klaargemaakt ontbijt.
+		<a href="#" class="viewproducts2">BEKIJK PRODUCTEN</a>
 	</div>
 
-	<a href="#" class="viewproducts2">BEKIJK PRODUCTEN</a>
 
-	<div class='blok3'>
+	<div class='app'>
+		<h1>McDonald's App</h1>
+		<p>
+			Onze app weet altijd de dichtsbijzijnde McDonald's te vinden, waar
+			je ook bent. Ook kan je het menu bekijken vanuit
+			de app en kan je na je maaltijd een review
+			achter laten voor ons. Met de McDonald's App blijf je op
+			de hoogte van winacties, games en de nieuwste producten. Ook
+			zijn er wekelijks nieuwe coupons voor onze gebruikers, waarmee je
+			kan genieten van korting op onze producten.
+		</p>
+
+		<div class="row">
+			<div class="column">
+				<a href='https://apps.apple.com/nl/app/mcdonalds/id1217507712' target="_blank"><img src="media/iosknop.png" width=170 height=62 class='ios' alt="ios"></a>
+			</div>
+			<div class="column">
+				<a href='https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp&hl=nl' target="_blank"><img src="media/androidknop.png" width=165 height=48 class='android' alt="android"></a>
+			</div>
+		</div>
+
+		<img src="media/app.jpg" width=400 height=400 class='appfoto' alt="app">
+	</div>
+
+	<div class='locatie'>
 		<h1>Locatie</h1>
-		<p>Hier vind je de locatie van <b><u>McDonald's Maarssen</u></b>.</p>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39188.63595822583!2d5.003656108595714!3d52.129050665997084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66e2ab59980ff%3A0x32cf6e5e2190f51!2sMcDonald&#39;s%20Maarssen!5e0!3m2!1snl!2snl!4v1571324118747!5m2!1snl!2snl" width="1280" height="600" frameborder="0"  allowfullscreen=""></iframe>
+		<p>Hier vind je de locaties van alle <b><u>McDonald's restaurants</u></b> in de buurt.</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d186313.7273451351!2d5.071471236971664!3d52.15120729425027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smcdonalds!5e0!3m2!1snl!2snl!4v1571928581520!5m2!1snl!2snl" width="1000" height="600" allowfullscreen=""></iframe>
 	<br><br><br><br><br><br><br><br><br><br><br>
 	</div>
 
-</div>
+	</div>
 </body>
